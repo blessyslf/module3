@@ -1,0 +1,156 @@
+// Place all the styles related to the main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+// .AMainBaner {
+//   position: absolute;
+//   width: 100vw;
+//   height: 100vw;
+// }
+
+@font-face {
+   font-family: 'TT Norms';
+   src: url('TTNorms-Regular.ttf');
+}
+@font-face {
+  font-family: 'TT Norrms';
+  src: url('TTNorms-Medium.ttf');
+}
+@font-face {
+  font-family: 'TT Norrrms';
+  src: url('TTNorms-Heavy.ttf');
+}
+@font-face {
+  font-family: 'TT Normms';
+  src: url('TTNorms-ExtraBold.ttf');
+}
+@font-face {
+  font-family: 'TT Normmms';
+  src: url('TTNorms-Bold.ttf');
+}
+@font-face {
+  font-family: 'TT Normss';
+  src: url('TTNorms-Black.ttf');
+}
+@font-face {
+   font-family: 'Practice-font';
+   src: url('Practice-font.otf');
+}
+.Menu{
+  position: absolute;
+left: 6.11vw;
+top: 29.10vw;
+font-family: 'TT Norms';
+font-style: normal;
+font-size: 1vw;
+line-height: 1.32vw;
+color: #FFFFFF;
+}
+.Menu2{
+  position: absolute;
+left: 6.11vw;
+top: 31.32vw;
+font-family: 'TT Norms';
+font-style: normal;
+font-size: 1vw;
+line-height: 1.32vw;
+color: #FFFFFF;
+}
+.Menu3{
+  position: absolute;
+left: 6.11vw;
+top: 33.54vw;
+font-family: 'TT Norms';
+font-style: normal;
+font-size: 1vw;
+line-height: 1.32vw;
+color: #FFFFFF;
+}
+.Menu4{
+  position: absolute;
+left: 6.11vw;
+top: 35.76vw;
+font-family: 'TT Norms';
+font-style: normal;
+font-size: 1vw;
+line-height: 1.32vw;
+color: #FFFFFF;
+}
+.Menuline1 {
+  position: absolute;
+  opacity: 30%;
+left: 5.83vw;
+top: 28.41vw;
+}
+.Menuline2 {
+  position: absolute;
+  opacity: 30%;
+left: 5.83vw;
+top: 38.19vw;
+}
+.AMainclass {
+  position: absolute;
+left: 3.19vw;
+top: 26.4vw;
+width: 7vw;
+}
+.AMaincategory {
+  position: absolute;
+left: 3.19vw;
+top: 23.82vw;
+width: 8.8vw;
+}
+.AMainnews {
+  position: absolute;
+  left: 3.19vw;
+  top: 21.24vw;
+  width: 7.7vw;
+}
+.AMainaccount {
+  position: absolute;
+  left: 3.19vw;
+  top: 18.66vw;
+  width: 7.7vw;
+}
+.AMainhome {
+  position: absolute;
+  left: 3.19vw;
+  top: 16.08vw;
+  width: 7.7vw;
+}
+.AMainlogo {
+  position: absolute;
+  left: 3.19vw;
+  top: 4.10vw;
+    width: 7.7vw;
+}
+.AMainbanertext {
+  position: absolute;
+  left: 51.32vw;
+  top: 38.96vw;
+width: 41vw;
+}
+.for_slick_slider .items {
+  width: 350px;
+  height: 250px;
+  margin:  50px;
+  position: absolute;
+}
+.for_slick_slider .items .overlay {
+  width: 350px;
+  height: 250px;
+top: 0;
+left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.64);
+}
+.for_slick_slider .slick-center .overlay {
+opacity: 0;
+}
+.for_slick_slider .items img {
+  width: 350px;
+  height: 250px;
+transition: all linear .4s;
+}
+.for_slick_slider .slick-center img {
+transform: scale(1.2);
+}
