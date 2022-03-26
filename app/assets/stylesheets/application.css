@@ -13,3 +13,69 @@
  *= require_tree .
  *= require_self
  */
+ @font-face {
+    font-family: 'TT Norms';
+    src: url('TTNorms-Regular.ttf');
+ }
+ @font-face {
+   font-family: 'TT Norrms';
+   src: url('TTNorms-Medium.ttf');
+ }
+ @font-face {
+   font-family: 'TT Norrrms';
+   src: url('TTNorms-Heavy.ttf');
+ }
+ @font-face {
+   font-family: 'TT Normms';
+   src: url('TTNorms-ExtraBold.ttf');
+ }
+ @font-face {
+   font-family: 'TT Normmms';
+   src: url('TTNorms-Bold.ttf');
+ }
+ @font-face {
+   font-family: 'TT Normss';
+   src: url('TTNorms-Black.ttf');
+ }
+ @font-face {
+    font-family: 'Practice-font';
+    src: url('Practice-font.otf');
+ }
+
+ body {
+   font: 14px "TT Norms";
+   background-color: #181818;
+ }
+
+ .AMBaner {
+ position: absolute;
+ opacity: 50%;
+ width: 100vw;
+ }
+/* .Menu{
+  position: absolute;
+left: 30.34%;
+right: 53.1%;
+top: 25.42%;
+bottom: 73.73%;
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+
+} */
+.top_menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 40px;
+  background: #eee;
+  border-bottom: 1px solid #ddd;
+}
+.top_menu a {
+  margin: 0 20px;
+}
