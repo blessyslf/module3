@@ -1,6 +1,11 @@
 <p>ID <%= @user.id %></p>
 <p>Email <%= @user.email %></p>
 <p>Username <%= @user.username %></p>
+<p>Admin <%= @user.isadmin %></p>
+
+<% if user_signed_in? && current_user.isadmin == true %>
+  <p>Admin <%= @user.isadmin %></p>
+<% end %>
 
 
 In favorites <%= @user.favorites.count %> <%= (@user.favorites.count) == 1 ? 'Post' : 'Posts'%>

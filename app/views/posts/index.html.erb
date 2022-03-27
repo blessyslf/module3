@@ -8,6 +8,12 @@
 <div class="link3">
   <%= link_to "афиша", posts_path %>
 </div>
+<%= form_tag posts_path, :method => 'get' do %>
+  <p>
+    <%= text_field_tag :starts_with, params[:starts_with] %>
+    <%= submit_tag "Search", :name => nil %>
+  </p>
+<% end %>
 <div class="titlenew3">
 <h1>Афиша</h1>
 </div>
