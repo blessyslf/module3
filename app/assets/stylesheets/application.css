@@ -45,6 +45,8 @@
  body {
    font: 14px "TT Norms";
    background-color: #181818;
+   margin: 0vw;
+   color: #FFFFFF;
  }
 
  .AMBaner {
@@ -78,4 +80,247 @@ color: #FFFFFF;
 }
 .top_menu a {
   margin: 0 20px;
+}
+.placeholderemreg {
+  border: none;
+ border-bottom: 1px solid white;
+ background-color: transparent;
+ color: inherit;
+ outline: none;
+ left: 25vw;
+ top: 21vw;
+position: absolute;
+width: 30vw;
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #888888;
+padding: 1vw;
+}
+.placeholderemreg2 {
+  border: none;
+ border-bottom: 1px solid white;
+ background-color: transparent;
+ color: inherit;
+ outline: none;
+ left: 25vw;
+ width: 30vw;
+position: absolute;
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+top: 24vw;
+color: #888888;
+padding: 1vw;
+}
+.placeholderemreg3 {
+  border: none;
+ border-bottom: 1px solid white;
+ background-color: transparent;
+ color: inherit;
+ outline: none;
+ left: 25vw;
+position: absolute;
+width: 30vw;
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+top: 27vw;
+color: #888888;
+padding: 1vw;
+}
+.placeholderemreg4 {
+  border: none;
+ border-bottom: 1px solid white;
+ background-color: transparent;
+ color: inherit;
+ outline: none;
+ left: 25vw;
+position: absolute;
+width: 30vw;
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+top: 30vw;
+color: #888888;
+padding: 1vw;
+}
+.signup {
+  position: absolute;
+top: 14vw;
+left: 25vw;
+font-family: 'TT Normmms';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 42px;
+
+color: #FFFFFF;
+
+}
+.actions{
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  left: 45vw;
+  font-size: 18px;
+  border: none;
+  line-height: 21px;
+  background: #00FFDF;
+  border-radius: 20px;
+  width: 209px;
+  position: absolute;
+  top: 37vw;
+  height: 1.9vw;
+}
+.check_box {
+  position: absolute;
+left: 25vw;
+top: 29vw;
+}
+.remember_me {
+  position: absolute;
+left: 26.7vw;
+top: 29vw;
+color: #888888;
+}
+.links{
+  position: absolute;
+  left: 25vw;
+  text-decoration: none;
+top: 33vw;
+color: #888888;
+}
+.links2{
+  position: absolute;
+  left: 25vw;
+  text-decoration: none;
+top: 31vw;
+color: #FFFFFF;
+}
+.nameu{
+  position: absolute;
+left: 37.43vw;
+top: 7.22vw;
+font-family: 'Practice-font';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+color: #45F7E1;
+}
+.editp{
+  position: absolute;
+left: 37.43vw;
+top: 9vw;
+text-decoration: none;
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+
+}
+.AMenuback {
+  position: absolute;
+  height: 100vw;
+}
+.titlen1 {
+  position: absolute;
+  width: 954px;
+  height: 82px;
+  left: 387px;
+  top: 84px;
+
+  font-family: 'Practice-font';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 82px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
+.firstblock div {
+  display: inline-block;
+  width: 30vw;
+  position: relative;
+    margin-right: 20vw;
+    left: 24.65vw;
+}
+.secondblock div {
+  display: inline-block;
+  width: 30vw;
+  left: 49.31vw;
+  position: relative;
+  padding-top: 12vw;
+}
+.firstblock .catid {
+  display: none;
+}
+.secondblock .catid {
+  display: none;
+}
+.thirdblock .catid {
+  display: none;
+}
+.fourthblock .catid {
+  display: none;
+}
+.thirdblock div {
+  display: inline-block;
+  width: 30vw;
+  position: relative;
+  margin-right: 20vw;
+  left: 24.65vw;
+  padding-top: 22vw;
+}
+.fourthblock div {
+  display: inline-block;
+  width: 30vw;
+  left: 49.31vw;
+  position: relative;
+  padding-top: 12vw;
+}
+.postimg {
+  position: absolute;
+  width: 21.53vw;
+}
+.posttitle{
+  font-family: 'TT Norms';
+  position: absolute;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+padding-top: 26vw;
+}
+.lessontitle {
+  position: absolute;
+width: 457px;
+height: 82px;
+left: 338px;
+top: 52px;
+
+font-family: 'Practice-font';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 41px;
+
+color: #BEF745;
 }

@@ -15,12 +15,12 @@
   </p>
 <% end %>
 <div class="titlenew3">
-<h1>Афиша</h1>
+
+  <%= react_component 'OAllPosts', { posts: @posts } %>
+
+<h1>Уроки</h1>
 </div>
-<div class="months">
-  Ноябрь
-</div>
-<h2>All Categories</h2>
+<h2>Все направления</h2>
 <% Category.all.each do |cat| %>
 	<%= link_to cat.name, posts_path(category: cat.name) %> <br>
 <% end %>
@@ -37,7 +37,9 @@
          <td class="posts__item__text posts__item__text-title"><%= post.title %></td>
          <td><%= post.content.html_safe %></td>
 
-        <td><%= image_tag(post.image.url, alt: 'Image')%></td>
+         class Image < ApplicationModel
+           attribute :image_url, default: default_image
+         end
         <td><%= post.likes.count %> <%= (post.likes.count) == 1 ? 'Like' : 'Likes'%></td>
         <td><%= post.comments.count %> <%= (post.comments.count) == 1 ? 'Comment' : 'Commentes'%></td>
 

@@ -8,17 +8,19 @@ import AMainnews from './AMainnews'
 import AMainaccount from './AMainaccount'
 import AMainhome from './AMainhome'
 import AMainlogo from './AMainlogo'
+import AMenuback from './AMenuback'
 
 class MMenu extends React.Component {
   render () {
     return (
       <div>
+      <AMenuback/>
       <AMainlogo/>
         <AMainhome/>
         <AMainaccount/>
         <AMainnews/>
         <AMaincategory/>
-        <AMainclass/>
+       <AMainclass/>
         <div className="Menuline1">
           <AMainline/>
           </div>
