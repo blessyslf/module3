@@ -1,0 +1,33 @@
+<%= form_tag posts_path, :method => 'get' do %>
+  <p class="poisk">
+    <%= text_field_tag :starts_with, params[:starts_with] %>
+    <%= submit_tag "Поиск", :name => nil %>
+  </p>
+<% end %>
+
+  <%= react_component 'MMenu' %>
+
+
+  <%= react_component 'OAllTracks', { tracks: @tracks } %>
+
+<table>
+  <thead>
+    <tr>
+
+
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @tracks.each do |track| %>
+      <tr>
+
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Track', new_track_path %>

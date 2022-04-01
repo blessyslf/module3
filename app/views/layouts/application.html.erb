@@ -10,9 +10,11 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
 <%= javascript_include_tag Ckeditor.cdn_url %>
 
-
+  <%# <%= react_component 'MMenu' %> %>
   </head>
   <body>
+
+
     <% if notice %>
       <p class="notice"><%= notice %></p>
     <% elsif alert %>
@@ -20,15 +22,12 @@
     <% end %>
     <div class="top_menu">
 
-      <%= link_to "Reset", posts_path %>
-	<% Category.where(display_in_navbar: true).each do |cat| %>
-  <%= link_to cat.name, request.params.merge(category: cat.id) %> |
-  <% end %>
+
 
   <% User.all.each do |user| %>
   <%= link_to user.email, request.params.merge(user: user.id)  %> |
   <% end %>|
-  
+
   <% if user_signed_in? %>
   <%= link_to 'Account', current_user %> | <%= link_to 'Sign Out', destroy_user_session_path, method: :delete %>
   <% else %>
@@ -36,6 +35,9 @@
   <% end %>
 </div>
     <%= yield %>
-      <%= react_component 'MMenu' %>
+
+
+
+
   </body>
 </html>

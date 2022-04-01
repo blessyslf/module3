@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+<%= react_component 'MGroup', { group: @group } %>
+<div class="youtubee">
+<iframe width="1260" height="1015" src="https://www.youtube.com/embed/SI5QUFDnNGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+
+<%= form_tag posts_path, :method => 'get' do %>
+  <p class="poisk">
+    <%= text_field_tag :starts_with, params[:starts_with] %>
+    <%= submit_tag "Поиск", :name => nil %>
+  </p>
+<% end %>
+
+  <%= react_component 'MMenu' %>
+
+<%= link_to 'Edit', edit_group_path(@group) %> |
+<%= link_to 'Back', groups_path %>

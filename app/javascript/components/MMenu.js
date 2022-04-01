@@ -25,16 +25,16 @@ class MMenu extends React.Component {
           <AMainline/>
           </div>
         <div className="Menu">
-        <ATextblock text={"уроки"}/>
+      <a href="/posts"><ATextblock text={"уроки"}/></a>
       </div>
           <div className="Menu2">
-        <ATextblock text={"курсы"}/>
+        <a href="/tracks"><ATextblock text={"курсы"}/></a>
         </div>
           <div className="Menu3">
-          <ATextblock text={"закрытые группы"}/>
+          <a href="/groups"><ATextblock text={"закрытые группы"}/></a>
           </div>
             <div className="Menu4">
-            <ATextblock text={"плейлисты"}/>
+            <a href="/playlists"> <ATextblock text={"плейлисты"}/></a>
                 </div>
                   <div className="Menuline2">
                     <AMainline/>

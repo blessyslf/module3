@@ -77,6 +77,6 @@ end
 
     # Only allow a list of trusted parameters through.
     def post_params
-	params.require(:post).permit(:name, :title, :content, :image, :category_id)
+	params.require(:post).permit(:name, :title, :content, :image, :category_id, :gif)
 end
 end

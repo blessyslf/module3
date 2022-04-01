@@ -11,6 +11,9 @@
     </div>
   <% end %>
 
+
+
+
   <div class="field">
     <h4 class="form__block__title1">Вид мероприятия</h4>
     <%= form.text_field :name, :class => "form3" %>
@@ -30,10 +33,19 @@
     <h4 class="form__block__title4">Загрузите изображение</h4>
   </div>
   	<%= form.file_field :image, :class => "imgloader" %>
+
+    <div>
+      <h4 class="form__block__title5">Загрузите gif</h4>
+    </div>
+      <%= form.file_field :gif, :class => "imggloader" %>
+
   <div class="field">
     <h4 class="form__block__title3">Описание</h4></div>
 
-    <%= form.cktext_area :content , :class => "form4" %>
+    <div class="field">
+        <%= form.label :content %>
+        <%= form.cktext_area :content %>
+      </div>
 
 
 

@@ -5,7 +5,7 @@ import PropTypes from "prop-types"
 class AMainnews extends React.Component {
   render () {
     return (
-<img src="/assets/AMainnews.svg" className="AMainnews"/>
+<a href="/news"><img src="/assets/AMainnews.svg" className="AMainnews"/></a>
     );
   }
 }

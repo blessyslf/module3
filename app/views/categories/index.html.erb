@@ -1,5 +1,11 @@
 <p id="notice"><%= notice %></p>
-
+<%= form_tag posts_path, :method => 'get' do %>
+  <p class="poisk">
+    <%= text_field_tag :starts_with, params[:starts_with] %>
+    <%= submit_tag "Поиск", :name => nil %>
+  </p>
+<% end %>
+<%= react_component 'MMenu' %>
 <table>
   <thead>
     <tr>
@@ -9,9 +15,9 @@
       <th colspan="3"></th>
     </tr>
   </thead>
-
+  <%= react_component 'OAllCategory', { category: @categories } %>
   <tbody>
-      <%= react_component 'OAllCategory', { category: @categories } %>
+
     <% @categories.each do |category| %>
 
       <tr>

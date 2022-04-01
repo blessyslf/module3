@@ -1,0 +1,58 @@
+<p id="notice"><%= notice %></p>
+
+<%= form_tag posts_path, :method => 'get' do %>
+  <p>
+    <%= text_field_tag :starts_with, params[:starts_with] %>
+    <%= submit_tag "Search", :name => nil %>
+  </p>
+<% end %>
+
+
+  <%= react_component 'OAllPosts', { posts: @posts } %>
+
+
+<h2>Все направления</h2>
+<% Category.all.each do |cat| %>
+	<%= link_to cat.name, posts_path(category: cat.name) %> <br>
+<% end %>
+<table>
+
+  <tbody class="posts">
+
+    <% @posts.each do |post| %>
+      <tr class="posts__item">
+
+
+<td><%= post.category.name %></td>
+        <td class="posts__item__text posts__item__text-theme"><%= post.name %></td>
+         <td class="posts__item__text posts__item__text-title"><%= post.title %></td>
+         <td><%= post.content.html_safe %></td>
+
+         class Image < ApplicationModel
+           attribute :image_url, default: default_image
+         end
+        <td><%= post.likes.count %> <%= (post.likes.count) == 1 ? 'Like' : 'Likes'%></td>
+        <td><%= post.comments.count %> <%= (post.comments.count) == 1 ? 'Comment' : 'Commentes'%></td>
+
+<td class="posts__item__links">
+
+          <%= link_to 'Открыть', post, :class =>"link" %>
+
+
+        <%= link_to 'Изменить', edit_post_path(post), :class =>"link" %>
+
+
+        <%= link_to 'Удалить', post, method: :delete, data: { confirm: 'Are you sure?' }, :class =>"link" %>
+
+      </td>
+
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+<div class="actions10">
+<%= link_to 'Новый пост', new_post_path %>
+</div>
+<%= link_to 'New Category', new_category_path %>

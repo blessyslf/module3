@@ -1,2 +1,9 @@
-
           <%= react_component 'Tests' %>
+  <%= react_component 'MMenuMain' %>
+  
+  <%= form_tag posts_path, :method => 'get' do %>
+    <p class="poisk">
+      <%= text_field_tag :starts_with, params[:starts_with] %>
+      <%= submit_tag "Поиск", :name => nil %>
+    </p>
+  <% end %>

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_03_27_165131) do
+ActiveRecord::Schema.define(version: 2022_04_01_055820) do
 
   create_table "categories", force: :cascade do |t|
     t.string "name"
@@ -41,6 +41,23 @@ ActiveRecord::Schema.define(version: 2022_03_27_165131) do
     t.index ["user_id"], name: "index_comments_on_user_id"
   end
 
+  create_table "courses", force: :cascade do |t|
+    t.string "name"
+    t.string "title"
+    t.text "content"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "events", force: :cascade do |t|
+    t.string "name"
+    t.string "title"
+    t.text "content"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.string "image"
+  end
+
   create_table "favorites", force: :cascade do |t|
     t.integer "post_id", null: false
     t.integer "user_id", null: false
@@ -50,6 +67,23 @@ ActiveRecord::Schema.define(version: 2022_03_27_165131) do
     t.index ["user_id"], name: "index_favorites_on_user_id"
   end
 
+  create_table "groups", force: :cascade do |t|
+    t.string "name"
+    t.string "title"
+    t.text "content"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.string "image"
+  end
+
+  create_table "kyrs", force: :cascade do |t|
+    t.string "name"
+    t.string "title"
+    t.text "content"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
   create_table "likes", force: :cascade do |t|
     t.integer "post_id", null: false
     t.integer "user_id", null: false
@@ -57,6 +91,15 @@ ActiveRecord::Schema.define(version: 2022_03_27_165131) do
     t.datetime "updated_at", precision: 6, null: false
     t.index ["post_id"], name: "index_likes_on_post_id"
     t.index ["user_id"], name: "index_likes_on_user_id"
+  end
+
+  create_table "playlists", force: :cascade do |t|
+    t.string "name"
+    t.string "title"
+    t.text "content"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.string "image"
   end
 
   create_table "posts", force: :cascade do |t|
@@ -70,6 +113,15 @@ ActiveRecord::Schema.define(version: 2022_03_27_165131) do
     t.integer "category_id", null: false
     t.index ["category_id"], name: "index_posts_on_category_id"
     t.index ["user_id"], name: "index_posts_on_user_id"
+  end
+
+  create_table "tracks", force: :cascade do |t|
+    t.string "name"
+    t.string "title"
+    t.text "content"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.string "image"
   end
 
   create_table "users", force: :cascade do |t|

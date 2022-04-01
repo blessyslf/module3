@@ -68,18 +68,17 @@ line-height: 19px;
 color: #FFFFFF;
 
 } */
-.top_menu {
+/* .top_menu {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   width: 100%;
   height: 60px;
-  margin-bottom: 40px;
-  background: #eee;
-  border-bottom: 1px solid #ddd;
-}
+
+} */
 .top_menu a {
   margin: 0 20px;
+  color: grey;
 }
 .placeholderemreg {
   border: none;
@@ -234,6 +233,7 @@ color: #FFFFFF;
 .AMenuback {
   position: absolute;
   height: 100vw;
+  top: 0vw;
 }
 .titlen1 {
   position: absolute;
@@ -266,7 +266,7 @@ color: #FFFFFF;
   width: 30vw;
   left: 49.31vw;
   position: relative;
-  padding-top: 12vw;
+padding-top: 7vw;
 }
 .firstblock .catid {
   display: none;
@@ -286,16 +286,20 @@ color: #FFFFFF;
   position: relative;
   margin-right: 20vw;
   left: 24.65vw;
-  padding-top: 22vw;
+  padding-top: 14vw;
 }
 .fourthblock div {
   display: inline-block;
   width: 30vw;
   left: 49.31vw;
   position: relative;
-  padding-top: 12vw;
+  padding-top: 7vw;
 }
 .postimg {
+  position: absolute;
+  width: 21.53vw;
+}
+.courseimg{
   position: absolute;
   width: 21.53vw;
 }
@@ -307,13 +311,12 @@ color: #FFFFFF;
   font-size: 20px;
   line-height: 24px;
   color: #FFFFFF;
-padding-top: 26vw;
-}
+padding-top: 19.7vw;}
 .lessontitle {
   position: absolute;
 width: 457px;
 height: 82px;
-left: 338px;
+left: 360px;
 top: 52px;
 
 font-family: 'Practice-font';
@@ -323,4 +326,716 @@ font-size: 36px;
 line-height: 41px;
 
 color: #BEF745;
+}
+.lessontext p {
+  position: absolute;
+width: 457px;
+height: 154px;
+left: 360px;
+top: 170px;
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+letter-spacing: 0.005em;
+
+}
+.aLessonSteps {
+  position: absolute;
+  width: 449.5px;
+  height: 69.5px;
+  left: 350px;
+  top: 558px;
+
+}
+.catiddd {
+  display: none;
+}
+.postgif {
+  position: absolute;
+left: 55vw;
+width: 42vw;
+height: 55vw;
+object-fit: cover;
+}
+.Favorite_button button{
+  background: none;
+  border: none;
+  left: 42.5vw;
+  position: absolute;
+  top: 27vw;
+}
+.Favoritebutton button{
+  background: none;
+  border: none;
+  left: 48.5vw;
+  position: absolute;
+  top: 450px;
+}
+.firsttblock div {
+  display: inline-block;
+  width: 25vw;
+  left: 24vw;
+  position: relative;
+  padding-bottom: 16vw;
+}
+.secondtblock div {
+  display: inline-block;
+  width: 25vw;
+  left: 24vw;
+  position: relative;
+  padding-top: 12vw;
+}
+.thirdtblock div {
+  display: inline-block;
+  width: 25vw;
+  left: 24vw;
+  position: relative;
+  padding-top: 30vw;
+}
+.tracktitle {
+  font-family: 'TT Norms';
+  position: absolute;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+padding-top: 41.5vw;
+}
+.actions10 {
+  position: absolute;
+left: 50vw;
+top: 130vw;
+}
+.actions11 {
+  position: absolute;
+left: 50vw;
+top: 150vw;
+}
+.aRateStars{
+  position: absolute;
+width: 171px;
+height: 34px;
+left: 460px;
+top: 450px;
+}
+.aRateStarsles{
+  position: absolute;
+  width: 171px;
+  height: 34px;
+  left: 360px;
+  top: 490px;
+}
+.ur1 p{
+  position: absolute;
+  width: 391px;
+  height: 24px;
+  left: 1100px;
+  top: 182px;
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.ur2 p{
+  position: absolute;
+  width: 391px;
+  height: 24px;
+  left: 1100px;
+  top: 242px;
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.ur3 p{
+  position: absolute;
+  width: 391px;
+  height: 24px;
+  left: 1100px;
+  top: 302px;
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.ur4 p{
+  position: absolute;
+  width: 391px;
+  height: 24px;
+  left: 1100px;
+  top: 362px;
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.ur5 p{
+  position: absolute;
+  width: 391px;
+  height: 24px;
+  left: 1100px;
+  top: 422px;
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.ur6 p{
+  position: absolute;
+  width: 391px;
+  height: 24px;
+  left: 1100px;
+  top: 482px;
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.ur7 p{
+  position: absolute;
+  width: 391px;
+  height: 24px;
+  left: 1100px;
+  top: 542px;
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.ur8 p{
+  position: absolute;
+  width: 391px;
+  height: 24px;
+  left: 1100px;
+  top: 602px;
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.ur9 p{
+  position: absolute;
+  width: 391px;
+  height: 24px;
+  left: 1100px;
+  top: 662px;
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.ur10 p{
+  position: absolute;
+  width: 391px;
+  height: 24px;
+  left: 1100px;
+  top: 722px;
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.ur11 p{
+  position: absolute;
+  width: 391px;
+  height: 24px;
+  left: 1100px;
+  top: 782px;
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.ur12 p{
+  position: absolute;
+  width: 891px;
+  height: 24px;
+  left: 1100px;
+  top: 842px;
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.Alinetrack{
+  position: absolute;
+  width: 504px;
+  height: 24px;
+  left: 1085px;
+  top: 215px;
+}
+.Alinetrack1{
+  position: absolute;
+  width: 504px;
+  height: 24px;
+  left: 1085px;
+  top: 275px;
+}
+.Alinetrack2{
+  position: absolute;
+  width: 504px;
+  height: 24px;
+  left: 1085px;
+  top: 335px;
+}
+
+.Alinetrack3{
+  position: absolute;
+  width: 504px;
+  height: 24px;
+  left: 1085px;
+  top: 395px;}
+.Alinetrack4{
+  position: absolute;
+  width: 504px;
+  height: 24px;
+  left: 1085px;
+  top: 455px;
+}
+
+
+.Alinetrack5{
+  position: absolute;
+  width: 504px;
+  height: 24px;
+  left: 1085px;
+  top: 515px;
+}.Alinetrack6{
+  position: absolute;
+  width: 504px;
+  height: 24px;
+  left: 1085px;
+  top: 575px;
+}.Alinetrack7{
+  position: absolute;
+  width: 504px;
+  height: 24px;
+  left: 1085px;
+  top: 635px;
+}.Alinetrack8{
+  position: absolute;
+  width: 504px;
+  height: 24px;
+  left: 1085px;
+  top: 695px;
+}.Alinetrack9{
+  position: absolute;
+  width: 504px;
+  height: 24px;
+  left: 1085px;
+  top: 755px;
+}.Alinetrack10{
+  position: absolute;
+  width: 504px;
+  height: 24px;
+  left: 1085px;
+  top: 815px;
+}.Alinetrack11{
+  position: absolute;
+  width: 504px;
+  height: 24px;
+  left: 1085px;
+  top: 875px;
+}
+.trackname {
+  position: absolute;
+width: 519px;
+height: 54px;
+left: 460px;
+top: 59px;
+font-family: 'Practice-font';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 54px;
+
+color: #BEF745;
+
+}
+.trackktitle{
+  position: absolute;
+width: 519px;
+height: 27px;
+left: 460px;
+top: 150px;
+
+font-family: 'Practice-font';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 27px;
+
+color: #BEF745;
+
+}
+.tracklesname p {
+  position: absolute;
+width: 519px;
+height: 27px;
+left: 1085px;
+top: 80px;
+
+font-family: 'Practice-font';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 27px;
+
+color: #BEF745;
+}
+.trackimg{
+  position: absolute;
+  left: 460px;
+  width: 24.7vw;
+  height: 20vw;
+  top: 30vw;
+  object-fit: cover;
+}
+.playlistimg{
+  position: absolute;
+  width: 21.53vw;
+}
+.playlistitle {
+  position: relative;
+  width: 275px;
+  left: 3vw;
+  z-index: 100;
+  text-decoration: none;
+  top: 18.7vw;
+  font-family: 'TT Normmms';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+.catiddd{
+  display: none;
+}
+.firstttblock div{
+  display: inline-block;
+  width: 25vw;
+  left: 24vw;
+  position: relative;
+}
+.secondtttblock div{
+  display: inline-block;
+  width: 25vw;
+  left: 24vw;
+  position: relative;
+  padding-top: 24vw;
+}
+.thirdtttblock div{
+  display: inline-block;
+  width: 25vw;
+  left: 24vw;
+  position: relative;
+  padding-top: 24vw;
+}
+.trn {
+  position: relative;
+  width: 262px;
+  height: 72px;
+  left: 0px;
+  top: 711px;
+  font-family: 'TT Normmms';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  }
+
+.fffirstbloock div{
+  display: inline-block;
+  width: 30vw;
+  position: relative;
+    margin-right: 20vw;
+    left: 24.65vw;
+}
+.sssecondblock div {
+  display: inline-block;
+  width: 30vw;
+  left: 47.31vw;
+  top: 300px;
+  position: absolute;
+}
+
+.ttthirdblock div {
+  display: inline-block;
+  width: 30vw;
+  position: absolute;
+  /* margin-right: 20vw; */
+  left: 73.65vw;
+  top: 2vw;
+  /* padding-top: 13vw; */
+}
+.fffourthblock div {
+  display: inline-block;
+  width: 30vw;
+  left: 8.31vw;
+  position: relative;
+  margin-left: 15vw;
+  padding-top: 4vw;
+}
+
+.fffifthblock div {
+  display: inline-block;
+  width: 30vw;
+  left: 44.31vw;
+  top: 900px;
+  position: absolute;
+}
+.sssixblock div {
+  display: inline-block;
+  width: 30vw;
+  left: 8.31vw;
+  position: relative;
+  margin-left: 15vw;
+  padding-top: 6vw;
+}
+.grouptimg {
+  position: relative;
+  width: 21.53vw;
+}
+.sevenblock div {
+  display: inline-block;
+  width: 30vw;
+  left: 44.31vw;
+  top: 1600px;
+  position: absolute;
+}
+.groupname{
+  font-family: 'Practice-font';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1px;
+  text-decoration: inherit;
+  color: #FFFFFF;
+}
+.grouptitle{
+  position: relative;
+  width: 595px;
+  height: 28px;
+  /* left: 445px; */
+  /* top: 498px; */
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+.youtube{
+  position: absolute;
+  top: 38vw;
+  left: 20vw;
+}
+.AStepp{
+  position: absolute;
+top: 32.5vw;
+left: 37vw;
+}
+.buufa{
+  position: absolute;
+  top: 27.5vw;
+  left: 40vw;
+  opacity: 1%;
+  z-index: 100;
+}
+.poisk{
+  position: relative;
+  z-index: 100;
+  top: 9vw;
+  left: 3vw;
+}
+.lessontextttt{
+  position: absolute;
+width: 447px;
+height: 176px;
+left: 460px;
+top: 205px;
+
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+/* or 110% */
+
+
+color: #FFFFFF;
+
+}
+.postnametitle {
+  position: relative;
+  width: 262px;
+  height: 72px;
+  left: 0px;
+  top: 24vw;
+  font-family: 'TT Normmms';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.Favoritee_button button{
+  background: none;
+  border: none;
+  left: -80px;
+  position: absolute;
+  top: 620px;
+}
+.grouppimg{
+  position: absolute;
+  width: 25vw;
+  height: 25vw;
+left: 1200.18px;
+top: 95.24px;
+}
+.favbutgroup button{
+  background: none;
+  border: none;
+  left: -80px;
+  position: absolute;
+  top: 620px;
+}
+.grouppptext p{
+  position: absolute;
+width: 461px;
+height: 168px;
+left: 400px;
+top: 180px;
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+.grouppptitle{
+  position: absolute;
+width: 400px;
+height: 82px;
+left: 400px;
+top: 59px;
+
+font-family: 'Practice-font';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 41px;
+
+color: #FFFFFF;
+}
+.group65{
+  position: absolute;
+width: 209px;
+height: 35px;
+left: 400px;
+top: 580px;
+
+}
+.groupppatitle{
+  position: absolute;
+width: 537px;
+height: 41px;
+left: 400px;
+top: 665px;
+
+font-family: 'Practice-font';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 41px;
+color: #FFFFFF;
+
+}
+.gRateStars{
+  position: absolute;
+  width: 210px;
+  height: 42px;
+  left: 67.5vw;
+  top: 35.5vw;
+}
+.gton{
+  position: absolute;
+width: 210px;
+height: 42px;
+left: 1511px;
+top: 600px;
+}
+.nnaammeegroup{
+  position: absolute;
+width: 189px;
+height: 28px;
+left: 67.5vw;
+top: 32vw;
+
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+}
+.youtubee{
+  position: absolute;
+  top: 44vw;
+  left: 22vw;
+}
+.acc1{
+  position: absolute;
+width: 362px;
+height: 24px;
+left: 670px;
+top: 186px;
+
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.eee{
+  position: absolute;
+  left: 670px;
+  top: 40vw;
+  z-index: 100;
 }

@@ -1,67 +1,31 @@
 <p id="notice"><%= notice %></p>
-<div class="link2">
-  <%= link_to "о проекте", about_path %>
-</div>
-<div class="link1">
-  <%= link_to "промо", promo_path %>
-</div>
-<div class="link3">
-  <%= link_to "афиша", posts_path %>
-</div>
+
 <%= form_tag posts_path, :method => 'get' do %>
-  <p>
+  <p class="poisk">
     <%= text_field_tag :starts_with, params[:starts_with] %>
-    <%= submit_tag "Search", :name => nil %>
+    <%= submit_tag "Поиск", :name => nil %>
   </p>
 <% end %>
-<div class="titlenew3">
+
 
   <%= react_component 'OAllPosts', { posts: @posts } %>
+  <%= react_component 'MMenu' %>
 
-<h1>Уроки</h1>
-</div>
-<h2>Все направления</h2>
-<% Category.all.each do |cat| %>
-	<%= link_to cat.name, posts_path(category: cat.name) %> <br>
-<% end %>
-<table>
 
   <tbody class="posts">
 
     <% @posts.each do |post| %>
-      <tr class="posts__item">
-
-
-<td><%= post.category.name %></td>
-        <td class="posts__item__text posts__item__text-theme"><%= post.name %></td>
-         <td class="posts__item__text posts__item__text-title"><%= post.title %></td>
-         <td><%= post.content.html_safe %></td>
-
-         class Image < ApplicationModel
-           attribute :image_url, default: default_image
-         end
-        <td><%= post.likes.count %> <%= (post.likes.count) == 1 ? 'Like' : 'Likes'%></td>
-        <td><%= post.comments.count %> <%= (post.comments.count) == 1 ? 'Comment' : 'Commentes'%></td>
-
-<td class="posts__item__links">
-
-          <%= link_to 'Открыть', post, :class =>"link" %>
-
-
-        <%= link_to 'Изменить', edit_post_path(post), :class =>"link" %>
-
-
-        <%= link_to 'Удалить', post, method: :delete, data: { confirm: 'Are you sure?' }, :class =>"link" %>
-
-      </td>
-
-      </tr>
+      <tr class="posts__item"></tr>
     <% end %>
+
   </tbody>
-</table>
+
+
 
 <br>
 <div class="actions10">
 <%= link_to 'Новый пост', new_post_path %>
 </div>
+<div class="actions11">
 <%= link_to 'New Category', new_category_path %>
+</div>

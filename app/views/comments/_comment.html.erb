@@ -9,9 +9,8 @@
 <p>
   <% if user_signed_in? && current_user.id == comment.user_id  %>
 <p>
-  <%= link_to 'Destroy Comment', [comment.post, comment],
+  <%= link_to 'Destroy Comment', [comment.event, comment],
                :confirm => 'Are you sure?',
                :method => :delete %>
 </p>
 <% end %>
-</p>

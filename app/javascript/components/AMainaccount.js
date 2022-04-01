@@ -5,7 +5,7 @@ import PropTypes from "prop-types"
 class AMainaccount extends React.Component {
   render () {
     return (
-<img src="/assets/AMainaccount.svg" className="AMainaccount"/>
+<a href="/users/1"><img src="/assets/AMainaccount.svg" className="AMainaccount"/></a>
     );
   }
 }

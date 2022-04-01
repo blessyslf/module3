@@ -5,7 +5,7 @@ import PropTypes from "prop-types"
 class AMaincategory extends React.Component {
   render () {
     return (
-<img src="/assets/AMaincategory.svg" className="AMaincategory"/>
+<a href="/categories"><img src="/assets/AMaincategory.svg" className="AMaincategory"/></a>
     );
   }
 }
